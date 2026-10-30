@@ -17,19 +17,21 @@ The lab is configured on a private virtual network so that additional machines c
 
 The cybersecurity lab is configured in a virtualized environment using VirtualBox and Kali Linux. The setup is designed for controlled security testing and practical cybersecurity exercises.
 
-Component| Configuration
-Host OS| Windows 11
-Host RAM| 8 GB
-Processor| Intel Core i5
-Hypervisor| VirtualBox 7.2
-Security OS| Kali Linux 2026.2
-Kali Linux RAM| 4048 MB (4 GB)
-Virtual Network| NAT Network
-Network Address| "10.0.0.0/24"
-Kali Linux IP Address| "10.0.2.15/24"
-Default Gateway| "10.0.0.1"
-DNS Server| "8.8.8.8"
-Future VM IP Range| "10.0.0.3–10.0.0.99"
+| Component | Configuration |
+| :--- | :--- |
+| Host OS | Windows 11 |
+| Host RAM | 8 GB |
+| Processor | Intel Core i5 |
+| Hypervisor | VirtualBox 7.2 |
+| Security OS | Kali Linux 2024.2 |
+| Kali Linux RAM | 4048 MB (4 GB) |
+| Virtual Network | NAT Network |
+| Subnet | 10.0.0.0/24 |
+| Network Interface | eth0 |
+| Kali Linux IP Address | 10.0.0.15 |
+| Default Gateway | 10.0.2.2 |
+| DNS Server | 8.8.8.8 |
+| Future VM IP Range | 10.0.0.3-10.0.0.99 |
 
 ## 🎯Setup Steps
 
